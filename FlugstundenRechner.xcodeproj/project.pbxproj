@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C496938D1577FC2700B8AD59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C496938C1577FC2700B8AD59 /* UIKit.framework */; };
+		C496938F1577FC2700B8AD59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C496938E1577FC2700B8AD59 /* Foundation.framework */; };
+		C49693911577FC2700B8AD59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49693901577FC2700B8AD59 /* CoreGraphics.framework */; };
+		C49693971577FC2700B8AD59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C49693951577FC2700B8AD59 /* InfoPlist.strings */; };
+		C49693991577FC2700B8AD59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C49693981577FC2700B8AD59 /* main.m */; };
+		C496939D1577FC2700B8AD59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C496939C1577FC2700B8AD59 /* AppDelegate.m */; };
+		C49693A01577FC2700B8AD59 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C496939E1577FC2700B8AD59 /* MainStoryboard.storyboard */; };
+		C49693A31577FC2700B8AD59 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49693A21577FC2700B8AD59 /* MainViewController.m */; };
+		C49693A61577FC2700B8AD59 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49693A51577FC2700B8AD59 /* FlipsideViewController.m */; };
+		C49693AE1577FC2700B8AD59 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49693AD1577FC2700B8AD59 /* SenTestingKit.framework */; };
+		C49693AF1577FC2700B8AD59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C496938C1577FC2700B8AD59 /* UIKit.framework */; };
+		C49693B01577FC2700B8AD59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C496938E1577FC2700B8AD59 /* Foundation.framework */; };
+		C49693B81577FC2700B8AD59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C49693B61577FC2700B8AD59 /* InfoPlist.strings */; };
+		C49693BB1577FC2700B8AD59 /* FlugstundenRechnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49693BA1577FC2700B8AD59 /* FlugstundenRechnerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C49693B11577FC2700B8AD59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C496937F1577FC2600B8AD59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49693871577FC2700B8AD59;
+			remoteInfo = FlugstundenRechner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C49693881577FC2700B8AD59 /* FlugstundenRechner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlugstundenRechner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C496938C1577FC2700B8AD59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C496938E1577FC2700B8AD59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C49693901577FC2700B8AD59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C49693941577FC2700B8AD59 /* FlugstundenRechner-Info.plist */ = {isa = PBXFileReference; path = "FlugstundenRechner-Info.plist"; sourceTree = "<group>"; };
+		C49693961577FC2700B8AD59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C49693981577FC2700B8AD59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C496939A1577FC2700B8AD59 /* FlugstundenRechner-Prefix.pch */ = {isa = PBXFileReference; path = "FlugstundenRechner-Prefix.pch"; sourceTree = "<group>"; };
+		C496939B1577FC2700B8AD59 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C496939C1577FC2700B8AD59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C496939F1577FC2700B8AD59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C49693A11577FC2700B8AD59 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		C49693A21577FC2700B8AD59 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C49693A41577FC2700B8AD59 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		C49693A51577FC2700B8AD59 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		C49693AC1577FC2700B8AD59 /* FlugstundenRechnerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlugstundenRechnerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49693AD1577FC2700B8AD59 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C49693B51577FC2700B8AD59 /* FlugstundenRechnerTests-Info.plist */ = {isa = PBXFileReference; path = "FlugstundenRechnerTests-Info.plist"; sourceTree = "<group>"; };
+		C49693B71577FC2700B8AD59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C49693B91577FC2700B8AD59 /* FlugstundenRechnerTests.h */ = {isa = PBXFileReference; path = FlugstundenRechnerTests.h; sourceTree = "<group>"; };
+		C49693BA1577FC2700B8AD59 /* FlugstundenRechnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlugstundenRechnerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C49693851577FC2700B8AD59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C496938D1577FC2700B8AD59 /* UIKit.framework in Frameworks */,
+				C496938F1577FC2700B8AD59 /* Foundation.framework in Frameworks */,
+				C49693911577FC2700B8AD59 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49693A81577FC2700B8AD59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49693AE1577FC2700B8AD59 /* SenTestingKit.framework in Frameworks */,
+				C49693AF1577FC2700B8AD59 /* UIKit.framework in Frameworks */,
+				C49693B01577FC2700B8AD59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C496937D1577FC2600B8AD59 = {
+			isa = PBXGroup;
+			children = (
+				C49693921577FC2700B8AD59 /* FlugstundenRechner */,
+				C49693B31577FC2700B8AD59 /* FlugstundenRechnerTests */,
+				C496938B1577FC2700B8AD59 /* Frameworks */,
+				C49693891577FC2700B8AD59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C49693891577FC2700B8AD59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C49693881577FC2700B8AD59 /* FlugstundenRechner.app */,
+				C49693AC1577FC2700B8AD59 /* FlugstundenRechnerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C496938B1577FC2700B8AD59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C496938C1577FC2700B8AD59 /* UIKit.framework */,
+				C496938E1577FC2700B8AD59 /* Foundation.framework */,
+				C49693901577FC2700B8AD59 /* CoreGraphics.framework */,
+				C49693AD1577FC2700B8AD59 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C49693921577FC2700B8AD59 /* FlugstundenRechner */ = {
+			isa = PBXGroup;
+			children = (
+				C496939B1577FC2700B8AD59 /* AppDelegate.h */,
+				C496939C1577FC2700B8AD59 /* AppDelegate.m */,
+				C496939E1577FC2700B8AD59 /* MainStoryboard.storyboard */,
+				C49693A11577FC2700B8AD59 /* MainViewController.h */,
+				C49693A21577FC2700B8AD59 /* MainViewController.m */,
+				C49693A41577FC2700B8AD59 /* FlipsideViewController.h */,
+				C49693A51577FC2700B8AD59 /* FlipsideViewController.m */,
+				C49693931577FC2700B8AD59 /* Supporting Files */,
+			);
+			path = FlugstundenRechner;
+			sourceTree = "<group>";
+		};
+		C49693931577FC2700B8AD59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C49693941577FC2700B8AD59 /* FlugstundenRechner-Info.plist */,
+				C49693951577FC2700B8AD59 /* InfoPlist.strings */,
+				C49693981577FC2700B8AD59 /* main.m */,
+				C496939A1577FC2700B8AD59 /* FlugstundenRechner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C49693B31577FC2700B8AD59 /* FlugstundenRechnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C49693B91577FC2700B8AD59 /* FlugstundenRechnerTests.h */,
+				C49693BA1577FC2700B8AD59 /* FlugstundenRechnerTests.m */,
+				C49693B41577FC2700B8AD59 /* Supporting Files */,
+			);
+			path = FlugstundenRechnerTests;
+			sourceTree = "<group>";
+		};
+		C49693B41577FC2700B8AD59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C49693B51577FC2700B8AD59 /* FlugstundenRechnerTests-Info.plist */,
+				C49693B61577FC2700B8AD59 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C49693871577FC2700B8AD59 /* FlugstundenRechner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49693BE1577FC2700B8AD59 /* Build configuration list for PBXNativeTarget "FlugstundenRechner" */;
+			buildPhases = (
+				C49693841577FC2700B8AD59 /* Sources */,
+				C49693851577FC2700B8AD59 /* Frameworks */,
+				C49693861577FC2700B8AD59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlugstundenRechner;
+			productName = FlugstundenRechner;
+			productReference = C49693881577FC2700B8AD59 /* FlugstundenRechner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C49693AB1577FC2700B8AD59 /* FlugstundenRechnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49693C11577FC2700B8AD59 /* Build configuration list for PBXNativeTarget "FlugstundenRechnerTests" */;
+			buildPhases = (
+				C49693A71577FC2700B8AD59 /* Sources */,
+				C49693A81577FC2700B8AD59 /* Frameworks */,
+				C49693A91577FC2700B8AD59 /* Resources */,
+				C49693AA1577FC2700B8AD59 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49693B21577FC2700B8AD59 /* PBXTargetDependency */,
+			);
+			name = FlugstundenRechnerTests;
+			productName = FlugstundenRechnerTests;
+			productReference = C49693AC1577FC2700B8AD59 /* FlugstundenRechnerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C496937F1577FC2600B8AD59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "RWTH Aachen";
+			};
+			buildConfigurationList = C49693821577FC2600B8AD59 /* Build configuration list for PBXProject "FlugstundenRechner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C496937D1577FC2600B8AD59;
+			productRefGroup = C49693891577FC2700B8AD59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C49693871577FC2700B8AD59 /* FlugstundenRechner */,
+				C49693AB1577FC2700B8AD59 /* FlugstundenRechnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C49693861577FC2700B8AD59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49693971577FC2700B8AD59 /* InfoPlist.strings in Resources */,
+				C49693A01577FC2700B8AD59 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49693A91577FC2700B8AD59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49693B81577FC2700B8AD59 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C49693AA1577FC2700B8AD59 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C49693841577FC2700B8AD59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49693991577FC2700B8AD59 /* main.m in Sources */,
+				C496939D1577FC2700B8AD59 /* AppDelegate.m in Sources */,
+				C49693A31577FC2700B8AD59 /* MainViewController.m in Sources */,
+				C49693A61577FC2700B8AD59 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49693A71577FC2700B8AD59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49693BB1577FC2700B8AD59 /* FlugstundenRechnerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C49693B21577FC2700B8AD59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49693871577FC2700B8AD59 /* FlugstundenRechner */;
+			targetProxy = C49693B11577FC2700B8AD59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C49693951577FC2700B8AD59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49693961577FC2700B8AD59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C496939E1577FC2700B8AD59 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C496939F1577FC2700B8AD59 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		C49693B61577FC2700B8AD59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49693B71577FC2700B8AD59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C49693BC1577FC2700B8AD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C49693BD1577FC2700B8AD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C49693BF1577FC2700B8AD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlugstundenRechner/FlugstundenRechner-Prefix.pch";
+				INFOPLIST_FILE = "FlugstundenRechner/FlugstundenRechner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C49693C01577FC2700B8AD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlugstundenRechner/FlugstundenRechner-Prefix.pch";
+				INFOPLIST_FILE = "FlugstundenRechner/FlugstundenRechner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C49693C21577FC2700B8AD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlugstundenRechner.app/FlugstundenRechner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlugstundenRechner/FlugstundenRechner-Prefix.pch";
+				INFOPLIST_FILE = "FlugstundenRechnerTests/FlugstundenRechnerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C49693C31577FC2700B8AD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlugstundenRechner.app/FlugstundenRechner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlugstundenRechner/FlugstundenRechner-Prefix.pch";
+				INFOPLIST_FILE = "FlugstundenRechnerTests/FlugstundenRechnerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C49693821577FC2600B8AD59 /* Build configuration list for PBXProject "FlugstundenRechner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49693BC1577FC2700B8AD59 /* Debug */,
+				C49693BD1577FC2700B8AD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49693BE1577FC2700B8AD59 /* Build configuration list for PBXNativeTarget "FlugstundenRechner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49693BF1577FC2700B8AD59 /* Debug */,
+				C49693C01577FC2700B8AD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C49693C11577FC2700B8AD59 /* Build configuration list for PBXNativeTarget "FlugstundenRechnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49693C21577FC2700B8AD59 /* Debug */,
+				C49693C31577FC2700B8AD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C496937F1577FC2600B8AD59 /* Project object */;
+}
