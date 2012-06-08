@@ -110,6 +110,7 @@
                         </subviews>
                         <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
                     <connections>
                         <outlet property="entriesTable" destination="EXA-vp-VM2" id="3wi-ly-qEV"/>
                         <outlet property="overallTimeLabel" destination="G7W-Sp-ny2" id="gJ6-V9-rBr"/>

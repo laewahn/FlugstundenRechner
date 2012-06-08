@@ -110,6 +110,7 @@
                         </subviews>
                         <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
                     <connections>
                         <outlet property="entriesTable" destination="EXA-vp-VM2" id="3wi-ly-qEV"/>
                         <outlet property="overallTimeLabel" destination="G7W-Sp-ny2" id="gJ6-V9-rBr"/>
@@ -156,6 +157,28 @@
             <point key="canvasLocation" x="368" y="182"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="FlipsideViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FlipsideViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="done:"/>
+            </relationships>
+        </class>
+        <class className="FlugstundenCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FlugstundenCell.h"/>
+        </class>
+        <class className="MainViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="entriesTable" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="overallTimeLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="timeInputTextField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="TimeTextField" superclassName="UITextField">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TimeTextField.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
