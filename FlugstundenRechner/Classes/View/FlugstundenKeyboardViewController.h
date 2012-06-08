@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FlugstundenKeyboardDelegate.h"
 
-@interface TestViewController : UIViewController
 
+@interface FlugstundenKeyboardViewController : UIViewController 
+
+@property(nonatomic, weak) id<FlugstundenKeyboardDelegate> delegate;
 @end

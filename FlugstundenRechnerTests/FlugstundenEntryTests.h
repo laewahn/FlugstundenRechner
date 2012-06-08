@@ -8,6 +8,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface TextFieldTimeFormatterTests : SenTestCase
+@interface FlugstundenEntryTests : SenTestCase
 
 @end

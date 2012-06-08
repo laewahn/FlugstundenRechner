@@ -1,5 +1,5 @@
 //
-//  FlugstundenConverter.h
+//  FlugstundenCellDelegate.h
 //  FlugstundenRechner
 //
 //  Created by Dennis Lewandowski on 03.06.12.
@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FlugstundenConverter : NSObject
+@class FlugstundenCell;
 
+@protocol FlugstundenCellDelegate <NSObject>
+-(void)deleteButtonPressedForFlugstundenCell:(FlugstundenCell *)theCell;
 @end

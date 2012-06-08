@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C47ABEFE157AA4A9000F0875 /* FlugstundenEntryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABEFD157AA4A9000F0875 /* FlugstundenEntryTests.m */; };
+		C47ABF12157B90F6000F0875 /* FlugstundenCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABF11157B90F6000F0875 /* FlugstundenCollectionTests.m */; };
+		C47ABF18157B954B000F0875 /* FlugstundenConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABF17157B954B000F0875 /* FlugstundenConverterTests.m */; };
+		C47ABF47157BC6EB000F0875 /* FlugstundenKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47ABF46157BC6EB000F0875 /* FlugstundenKeyboardViewController.xib */; };
+		C47ABF55157BC707000F0875 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = C47ABF48157BC707000F0875 /* 01.png */; };
+		C47ABF56157BC707000F0875 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C47ABF49157BC707000F0875 /* 2.png */; };
+		C47ABF57157BC707000F0875 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = C47ABF4A157BC707000F0875 /* 3.png */; };
+		C47ABF58157BC707000F0875 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = C47ABF4B157BC707000F0875 /* 4.png */; };
+		C47ABF59157BC707000F0875 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = C47ABF4C157BC707000F0875 /* 5.png */; };
+		C47ABF5A157BC707000F0875 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = C47ABF4D157BC707000F0875 /* 6.png */; };
+		C47ABF5B157BC707000F0875 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = C47ABF4E157BC707000F0875 /* 7.png */; };
+		C47ABF5C157BC707000F0875 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = C47ABF4F157BC707000F0875 /* 8.png */; };
+		C47ABF5D157BC707000F0875 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = C47ABF50157BC707000F0875 /* 9.png */; };
+		C47ABF5E157BC707000F0875 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = C47ABF51157BC707000F0875 /* 10.png */; };
+		C47ABF5F157BC707000F0875 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = C47ABF52157BC707000F0875 /* 12.png */; };
+		C47ABF60157BC707000F0875 /* delete_control.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C47ABF53157BC707000F0875 /* delete_control.jpg */; };
+		C47ABF61157BC707000F0875 /* Sonderbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C47ABF54157BC707000F0875 /* Sonderbutton.png */; };
+		C47ABF66157BC7EB000F0875 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABF65157BC7EB000F0875 /* AppDelegate.m */; };
+		C47ABF6C157BC82C000F0875 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABF69157BC82C000F0875 /* FlipsideViewController.m */; };
+		C47ABF6D157BC82C000F0875 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABF6B157BC82C000F0875 /* MainViewController.m */; };
+		C47ABF75157BC85F000F0875 /* FlugstundenCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABF6F157BC85F000F0875 /* FlugstundenCollection.m */; };
+		C47ABF76157BC85F000F0875 /* FlugstundenConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABF71157BC85F000F0875 /* FlugstundenConverter.m */; };
+		C47ABF77157BC85F000F0875 /* FlugstundenEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABF74157BC85F000F0875 /* FlugstundenEntry.m */; };
+		C47ABF78157BC876000F0875 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABF65157BC7EB000F0875 /* AppDelegate.m */; };
+		C47ABF81157BC8E9000F0875 /* FlugstundenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABF7A157BC8E9000F0875 /* FlugstundenCell.m */; };
+		C47ABF82157BC8E9000F0875 /* FlugstundenKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABF7E157BC8E9000F0875 /* FlugstundenKeyboardViewController.m */; };
+		C47ABF83157BC8E9000F0875 /* TimeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABF80157BC8E9000F0875 /* TimeTextField.m */; };
+		C47ABF90157BCC76000F0875 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C47ABF92157BCC76000F0875 /* Localizable.strings */; };
 		C496938D1577FC2700B8AD59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C496938C1577FC2700B8AD59 /* UIKit.framework */; };
 		C496938F1577FC2700B8AD59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C496938E1577FC2700B8AD59 /* Foundation.framework */; };
 		C49693911577FC2700B8AD59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49693901577FC2700B8AD59 /* CoreGraphics.framework */; };
 		C49693971577FC2700B8AD59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C49693951577FC2700B8AD59 /* InfoPlist.strings */; };
 		C49693991577FC2700B8AD59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C49693981577FC2700B8AD59 /* main.m */; };
-		C496939D1577FC2700B8AD59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C496939C1577FC2700B8AD59 /* AppDelegate.m */; };
 		C49693A01577FC2700B8AD59 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C496939E1577FC2700B8AD59 /* MainStoryboard.storyboard */; };
-		C49693A31577FC2700B8AD59 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49693A21577FC2700B8AD59 /* MainViewController.m */; };
-		C49693A61577FC2700B8AD59 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49693A51577FC2700B8AD59 /* FlipsideViewController.m */; };
 		C49693AE1577FC2700B8AD59 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49693AD1577FC2700B8AD59 /* SenTestingKit.framework */; };
 		C49693AF1577FC2700B8AD59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C496938C1577FC2700B8AD59 /* UIKit.framework */; };
 		C49693B01577FC2700B8AD59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C496938E1577FC2700B8AD59 /* Foundation.framework */; };
@@ -34,26 +59,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C47ABEFC157AA4A9000F0875 /* FlugstundenEntryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlugstundenEntryTests.h; sourceTree = "<group>"; };
+		C47ABEFD157AA4A9000F0875 /* FlugstundenEntryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlugstundenEntryTests.m; sourceTree = "<group>"; };
+		C47ABF10157B90F6000F0875 /* FlugstundenCollectionTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlugstundenCollectionTests.h; sourceTree = "<group>"; };
+		C47ABF11157B90F6000F0875 /* FlugstundenCollectionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlugstundenCollectionTests.m; sourceTree = "<group>"; };
+		C47ABF16157B954B000F0875 /* FlugstundenConverterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlugstundenConverterTests.h; sourceTree = "<group>"; };
+		C47ABF17157B954B000F0875 /* FlugstundenConverterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlugstundenConverterTests.m; sourceTree = "<group>"; };
+		C47ABF46157BC6EB000F0875 /* FlugstundenKeyboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FlugstundenKeyboardViewController.xib; path = Resources/FlugstundenKeyboardViewController.xib; sourceTree = "<group>"; };
+		C47ABF48157BC707000F0875 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 01.png; path = Resources/Buttons/01.png; sourceTree = "<group>"; };
+		C47ABF49157BC707000F0875 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = Resources/Buttons/2.png; sourceTree = "<group>"; };
+		C47ABF4A157BC707000F0875 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = Resources/Buttons/3.png; sourceTree = "<group>"; };
+		C47ABF4B157BC707000F0875 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = Resources/Buttons/4.png; sourceTree = "<group>"; };
+		C47ABF4C157BC707000F0875 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = Resources/Buttons/5.png; sourceTree = "<group>"; };
+		C47ABF4D157BC707000F0875 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6.png; path = Resources/Buttons/6.png; sourceTree = "<group>"; };
+		C47ABF4E157BC707000F0875 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7.png; path = Resources/Buttons/7.png; sourceTree = "<group>"; };
+		C47ABF4F157BC707000F0875 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8.png; path = Resources/Buttons/8.png; sourceTree = "<group>"; };
+		C47ABF50157BC707000F0875 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 9.png; path = Resources/Buttons/9.png; sourceTree = "<group>"; };
+		C47ABF51157BC707000F0875 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10.png; path = Resources/Buttons/10.png; sourceTree = "<group>"; };
+		C47ABF52157BC707000F0875 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 12.png; path = Resources/Buttons/12.png; sourceTree = "<group>"; };
+		C47ABF53157BC707000F0875 /* delete_control.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = delete_control.jpg; path = Resources/Buttons/delete_control.jpg; sourceTree = "<group>"; };
+		C47ABF54157BC707000F0875 /* Sonderbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sonderbutton.png; path = Resources/Buttons/Sonderbutton.png; sourceTree = "<group>"; };
+		C47ABF62157BC738000F0875 /* FlugstundenRechner-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FlugstundenRechner-Info.plist"; sourceTree = "<group>"; };
+		C47ABF64157BC7EB000F0875 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		C47ABF65157BC7EB000F0875 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		C47ABF68157BC82C000F0875 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipsideViewController.h; path = Classes/ViewControllers/FlipsideViewController.h; sourceTree = "<group>"; };
+		C47ABF69157BC82C000F0875 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipsideViewController.m; path = Classes/ViewControllers/FlipsideViewController.m; sourceTree = "<group>"; };
+		C47ABF6A157BC82C000F0875 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/ViewControllers/MainViewController.h; sourceTree = "<group>"; };
+		C47ABF6B157BC82C000F0875 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/ViewControllers/MainViewController.m; sourceTree = "<group>"; };
+		C47ABF6E157BC85F000F0875 /* FlugstundenCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlugstundenCollection.h; path = Classes/Model/FlugstundenCollection.h; sourceTree = "<group>"; };
+		C47ABF6F157BC85F000F0875 /* FlugstundenCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlugstundenCollection.m; path = Classes/Model/FlugstundenCollection.m; sourceTree = "<group>"; };
+		C47ABF70157BC85F000F0875 /* FlugstundenConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlugstundenConverter.h; path = Classes/Model/FlugstundenConverter.h; sourceTree = "<group>"; };
+		C47ABF71157BC85F000F0875 /* FlugstundenConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlugstundenConverter.m; path = Classes/Model/FlugstundenConverter.m; sourceTree = "<group>"; };
+		C47ABF72157BC85F000F0875 /* FlugstundenConverter+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FlugstundenConverter+Private.h"; path = "Classes/Model/FlugstundenConverter+Private.h"; sourceTree = "<group>"; };
+		C47ABF73157BC85F000F0875 /* FlugstundenEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlugstundenEntry.h; path = Classes/Model/FlugstundenEntry.h; sourceTree = "<group>"; };
+		C47ABF74157BC85F000F0875 /* FlugstundenEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlugstundenEntry.m; path = Classes/Model/FlugstundenEntry.m; sourceTree = "<group>"; };
+		C47ABF79157BC8E9000F0875 /* FlugstundenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlugstundenCell.h; path = Classes/View/FlugstundenCell.h; sourceTree = "<group>"; };
+		C47ABF7A157BC8E9000F0875 /* FlugstundenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlugstundenCell.m; path = Classes/View/FlugstundenCell.m; sourceTree = "<group>"; };
+		C47ABF7B157BC8E9000F0875 /* FlugstundenCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlugstundenCellDelegate.h; path = Classes/View/FlugstundenCellDelegate.h; sourceTree = "<group>"; };
+		C47ABF7C157BC8E9000F0875 /* FlugstundenKeyboardDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlugstundenKeyboardDelegate.h; path = Classes/View/FlugstundenKeyboardDelegate.h; sourceTree = "<group>"; };
+		C47ABF7D157BC8E9000F0875 /* FlugstundenKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlugstundenKeyboardViewController.h; path = Classes/View/FlugstundenKeyboardViewController.h; sourceTree = "<group>"; };
+		C47ABF7E157BC8E9000F0875 /* FlugstundenKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlugstundenKeyboardViewController.m; path = Classes/View/FlugstundenKeyboardViewController.m; sourceTree = "<group>"; };
+		C47ABF7F157BC8E9000F0875 /* TimeTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeTextField.h; path = Classes/View/TimeTextField.h; sourceTree = "<group>"; };
+		C47ABF80157BC8E9000F0875 /* TimeTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeTextField.m; path = Classes/View/TimeTextField.m; sourceTree = "<group>"; };
+		C47ABF84157BC947000F0875 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = de; path = de.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C47ABF85157BC95D000F0875 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C47ABF91157BCC76000F0875 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C47ABF93157BCC7B000F0875 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C49693881577FC2700B8AD59 /* FlugstundenRechner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlugstundenRechner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C496938C1577FC2700B8AD59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C496938E1577FC2700B8AD59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C49693901577FC2700B8AD59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C49693941577FC2700B8AD59 /* FlugstundenRechner-Info.plist */ = {isa = PBXFileReference; path = "FlugstundenRechner-Info.plist"; sourceTree = "<group>"; };
 		C49693961577FC2700B8AD59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C49693981577FC2700B8AD59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C496939A1577FC2700B8AD59 /* FlugstundenRechner-Prefix.pch */ = {isa = PBXFileReference; path = "FlugstundenRechner-Prefix.pch"; sourceTree = "<group>"; };
-		C496939B1577FC2700B8AD59 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		C496939C1577FC2700B8AD59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C496939A1577FC2700B8AD59 /* FlugstundenRechner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlugstundenRechner-Prefix.pch"; sourceTree = "<group>"; };
 		C496939F1577FC2700B8AD59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C49693A11577FC2700B8AD59 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
-		C49693A21577FC2700B8AD59 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		C49693A41577FC2700B8AD59 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
-		C49693A51577FC2700B8AD59 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		C49693AC1577FC2700B8AD59 /* FlugstundenRechnerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlugstundenRechnerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49693AD1577FC2700B8AD59 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C49693B51577FC2700B8AD59 /* FlugstundenRechnerTests-Info.plist */ = {isa = PBXFileReference; path = "FlugstundenRechnerTests-Info.plist"; sourceTree = "<group>"; };
+		C49693B51577FC2700B8AD59 /* FlugstundenRechnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlugstundenRechnerTests-Info.plist"; sourceTree = "<group>"; };
 		C49693B71577FC2700B8AD59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C49693B91577FC2700B8AD59 /* FlugstundenRechnerTests.h */ = {isa = PBXFileReference; path = FlugstundenRechnerTests.h; sourceTree = "<group>"; };
+		C49693B91577FC2700B8AD59 /* FlugstundenRechnerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlugstundenRechnerTests.h; sourceTree = "<group>"; };
 		C49693BA1577FC2700B8AD59 /* FlugstundenRechnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlugstundenRechnerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +145,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C47ABF07157B867C000F0875 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C47ABF68157BC82C000F0875 /* FlipsideViewController.h */,
+				C47ABF69157BC82C000F0875 /* FlipsideViewController.m */,
+				C47ABF6A157BC82C000F0875 /* MainViewController.h */,
+				C47ABF6B157BC82C000F0875 /* MainViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C47ABF08157B86F1000F0875 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C47ABF79157BC8E9000F0875 /* FlugstundenCell.h */,
+				C47ABF7A157BC8E9000F0875 /* FlugstundenCell.m */,
+				C47ABF7B157BC8E9000F0875 /* FlugstundenCellDelegate.h */,
+				C47ABF7C157BC8E9000F0875 /* FlugstundenKeyboardDelegate.h */,
+				C47ABF7D157BC8E9000F0875 /* FlugstundenKeyboardViewController.h */,
+				C47ABF7E157BC8E9000F0875 /* FlugstundenKeyboardViewController.m */,
+				C47ABF7F157BC8E9000F0875 /* TimeTextField.h */,
+				C47ABF80157BC8E9000F0875 /* TimeTextField.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C47ABF09157B8701000F0875 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C47ABF19157B98A1000F0875 /* Buttons */,
+				C496939E1577FC2700B8AD59 /* MainStoryboard.storyboard */,
+				C47ABF46157BC6EB000F0875 /* FlugstundenKeyboardViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C47ABF0B157B902B000F0875 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C47ABF6E157BC85F000F0875 /* FlugstundenCollection.h */,
+				C47ABF6F157BC85F000F0875 /* FlugstundenCollection.m */,
+				C47ABF70157BC85F000F0875 /* FlugstundenConverter.h */,
+				C47ABF71157BC85F000F0875 /* FlugstundenConverter.m */,
+				C47ABF72157BC85F000F0875 /* FlugstundenConverter+Private.h */,
+				C47ABF73157BC85F000F0875 /* FlugstundenEntry.h */,
+				C47ABF74157BC85F000F0875 /* FlugstundenEntry.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C47ABF0F157B90E0000F0875 /* Model Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C47ABEFC157AA4A9000F0875 /* FlugstundenEntryTests.h */,
+				C47ABEFD157AA4A9000F0875 /* FlugstundenEntryTests.m */,
+				C47ABF10157B90F6000F0875 /* FlugstundenCollectionTests.h */,
+				C47ABF11157B90F6000F0875 /* FlugstundenCollectionTests.m */,
+				C47ABF16157B954B000F0875 /* FlugstundenConverterTests.h */,
+				C47ABF17157B954B000F0875 /* FlugstundenConverterTests.m */,
+			);
+			name = "Model Tests";
+			sourceTree = "<group>";
+		};
+		C47ABF19157B98A1000F0875 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				C47ABF48157BC707000F0875 /* 01.png */,
+				C47ABF49157BC707000F0875 /* 2.png */,
+				C47ABF4A157BC707000F0875 /* 3.png */,
+				C47ABF4B157BC707000F0875 /* 4.png */,
+				C47ABF4C157BC707000F0875 /* 5.png */,
+				C47ABF4D157BC707000F0875 /* 6.png */,
+				C47ABF4E157BC707000F0875 /* 7.png */,
+				C47ABF4F157BC707000F0875 /* 8.png */,
+				C47ABF50157BC707000F0875 /* 9.png */,
+				C47ABF51157BC707000F0875 /* 10.png */,
+				C47ABF52157BC707000F0875 /* 12.png */,
+				C47ABF53157BC707000F0875 /* delete_control.jpg */,
+				C47ABF54157BC707000F0875 /* Sonderbutton.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		C47ABF67157BC805000F0875 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C47ABF64157BC7EB000F0875 /* AppDelegate.h */,
+				C47ABF65157BC7EB000F0875 /* AppDelegate.m */,
+				C47ABF07157B867C000F0875 /* ViewControllers */,
+				C47ABF0B157B902B000F0875 /* Model */,
+				C47ABF08157B86F1000F0875 /* View */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		C496937D1577FC2600B8AD59 = {
 			isa = PBXGroup;
 			children = (
@@ -114,13 +273,8 @@
 		C49693921577FC2700B8AD59 /* FlugstundenRechner */ = {
 			isa = PBXGroup;
 			children = (
-				C496939B1577FC2700B8AD59 /* AppDelegate.h */,
-				C496939C1577FC2700B8AD59 /* AppDelegate.m */,
-				C496939E1577FC2700B8AD59 /* MainStoryboard.storyboard */,
-				C49693A11577FC2700B8AD59 /* MainViewController.h */,
-				C49693A21577FC2700B8AD59 /* MainViewController.m */,
-				C49693A41577FC2700B8AD59 /* FlipsideViewController.h */,
-				C49693A51577FC2700B8AD59 /* FlipsideViewController.m */,
+				C47ABF67157BC805000F0875 /* Classes */,
+				C47ABF09157B8701000F0875 /* Resources */,
 				C49693931577FC2700B8AD59 /* Supporting Files */,
 			);
 			path = FlugstundenRechner;
@@ -129,8 +283,9 @@
 		C49693931577FC2700B8AD59 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C49693941577FC2700B8AD59 /* FlugstundenRechner-Info.plist */,
+				C47ABF62157BC738000F0875 /* FlugstundenRechner-Info.plist */,
 				C49693951577FC2700B8AD59 /* InfoPlist.strings */,
+				C47ABF92157BCC76000F0875 /* Localizable.strings */,
 				C49693981577FC2700B8AD59 /* main.m */,
 				C496939A1577FC2700B8AD59 /* FlugstundenRechner-Prefix.pch */,
 			);
@@ -142,6 +297,7 @@
 			children = (
 				C49693B91577FC2700B8AD59 /* FlugstundenRechnerTests.h */,
 				C49693BA1577FC2700B8AD59 /* FlugstundenRechnerTests.m */,
+				C47ABF0F157B90E0000F0875 /* Model Tests */,
 				C49693B41577FC2700B8AD59 /* Supporting Files */,
 			);
 			path = FlugstundenRechnerTests;
@@ -210,6 +366,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
 			);
 			mainGroup = C496937D1577FC2600B8AD59;
 			productRefGroup = C49693891577FC2700B8AD59 /* Products */;
@@ -229,6 +386,21 @@
 			files = (
 				C49693971577FC2700B8AD59 /* InfoPlist.strings in Resources */,
 				C49693A01577FC2700B8AD59 /* MainStoryboard.storyboard in Resources */,
+				C47ABF47157BC6EB000F0875 /* FlugstundenKeyboardViewController.xib in Resources */,
+				C47ABF55157BC707000F0875 /* 01.png in Resources */,
+				C47ABF56157BC707000F0875 /* 2.png in Resources */,
+				C47ABF57157BC707000F0875 /* 3.png in Resources */,
+				C47ABF58157BC707000F0875 /* 4.png in Resources */,
+				C47ABF59157BC707000F0875 /* 5.png in Resources */,
+				C47ABF5A157BC707000F0875 /* 6.png in Resources */,
+				C47ABF5B157BC707000F0875 /* 7.png in Resources */,
+				C47ABF5C157BC707000F0875 /* 8.png in Resources */,
+				C47ABF5D157BC707000F0875 /* 9.png in Resources */,
+				C47ABF5E157BC707000F0875 /* 10.png in Resources */,
+				C47ABF5F157BC707000F0875 /* 12.png in Resources */,
+				C47ABF60157BC707000F0875 /* delete_control.jpg in Resources */,
+				C47ABF61157BC707000F0875 /* Sonderbutton.png in Resources */,
+				C47ABF90157BCC76000F0875 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +435,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47ABF78157BC876000F0875 /* AppDelegate.m in Sources */,
 				C49693991577FC2700B8AD59 /* main.m in Sources */,
-				C496939D1577FC2700B8AD59 /* AppDelegate.m in Sources */,
-				C49693A31577FC2700B8AD59 /* MainViewController.m in Sources */,
-				C49693A61577FC2700B8AD59 /* FlipsideViewController.m in Sources */,
+				C47ABF6C157BC82C000F0875 /* FlipsideViewController.m in Sources */,
+				C47ABF6D157BC82C000F0875 /* MainViewController.m in Sources */,
+				C47ABF75157BC85F000F0875 /* FlugstundenCollection.m in Sources */,
+				C47ABF76157BC85F000F0875 /* FlugstundenConverter.m in Sources */,
+				C47ABF77157BC85F000F0875 /* FlugstundenEntry.m in Sources */,
+				C47ABF81157BC8E9000F0875 /* FlugstundenCell.m in Sources */,
+				C47ABF82157BC8E9000F0875 /* FlugstundenKeyboardViewController.m in Sources */,
+				C47ABF83157BC8E9000F0875 /* TimeTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +453,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C49693BB1577FC2700B8AD59 /* FlugstundenRechnerTests.m in Sources */,
+				C47ABEFE157AA4A9000F0875 /* FlugstundenEntryTests.m in Sources */,
+				C47ABF12157B90F6000F0875 /* FlugstundenCollectionTests.m in Sources */,
+				C47ABF18157B954B000F0875 /* FlugstundenConverterTests.m in Sources */,
+				C47ABF66157BC7EB000F0875 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,10 +471,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		C47ABF92157BCC76000F0875 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47ABF91157BCC76000F0875 /* en */,
+				C47ABF93157BCC7B000F0875 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		C49693951577FC2700B8AD59 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C49693961577FC2700B8AD59 /* en */,
+				C47ABF85157BC95D000F0875 /* de */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -301,6 +493,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C496939F1577FC2700B8AD59 /* en */,
+				C47ABF84157BC947000F0875 /* de */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -322,6 +515,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -347,6 +541,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -436,6 +631,7 @@
 				C49693C01577FC2700B8AD59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C49693C11577FC2700B8AD59 /* Build configuration list for PBXNativeTarget "FlugstundenRechnerTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +640,7 @@
 				C49693C31577FC2700B8AD59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

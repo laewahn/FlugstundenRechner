@@ -9,6 +9,9 @@
 #ifndef FlugstundenRechner_FlugstundenConverter_Private_h
 #define FlugstundenRechner_FlugstundenConverter_Private_h
 
-
+@interface FlugstundenConverter(Private)
++(NSInteger)hoursFromTimeInterval:(NSTimeInterval)theInterval;
++(NSInteger)minutesFromTimeInterval:(NSTimeInterval)theInterval;
+@end
 
 #endif

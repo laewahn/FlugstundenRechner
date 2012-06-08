@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FlugstundenCellDelegate.h"
 
 @interface FlugstundenCell : UITableViewCell
+
+@property(nonatomic, weak) id<FlugstundenCellDelegate> delegate;
 
 @end
