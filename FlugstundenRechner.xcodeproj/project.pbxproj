@@ -46,6 +46,9 @@
 		C49693B01577FC2700B8AD59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C496938E1577FC2700B8AD59 /* Foundation.framework */; };
 		C49693B81577FC2700B8AD59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C49693B61577FC2700B8AD59 /* InfoPlist.strings */; };
 		C49693BB1577FC2700B8AD59 /* FlugstundenRechnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49693BA1577FC2700B8AD59 /* FlugstundenRechnerTests.m */; };
+		C4A9A725158262E500EA87C8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A9A723158262E500EA87C8 /* Icon.png */; };
+		C4A9A726158262E500EA87C8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A9A724158262E500EA87C8 /* Icon@2x.png */; };
+		C4A9A7281582630100EA87C8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A9A7271582630100EA87C8 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +122,9 @@
 		C49693B71577FC2700B8AD59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C49693B91577FC2700B8AD59 /* FlugstundenRechnerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlugstundenRechnerTests.h; sourceTree = "<group>"; };
 		C49693BA1577FC2700B8AD59 /* FlugstundenRechnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlugstundenRechnerTests.m; sourceTree = "<group>"; };
+		C4A9A723158262E500EA87C8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
+		C4A9A724158262E500EA87C8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
+		C4A9A7271582630100EA87C8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +183,8 @@
 				C47ABF19157B98A1000F0875 /* Buttons */,
 				C496939E1577FC2700B8AD59 /* MainStoryboard.storyboard */,
 				C47ABF46157BC6EB000F0875 /* FlugstundenKeyboardViewController.xib */,
+				C4A9A723158262E500EA87C8 /* Icon.png */,
+				C4A9A724158262E500EA87C8 /* Icon@2x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -243,6 +251,7 @@
 		C496937D1577FC2600B8AD59 = {
 			isa = PBXGroup;
 			children = (
+				C4A9A7271582630100EA87C8 /* Icon@2x.png */,
 				C49693921577FC2700B8AD59 /* FlugstundenRechner */,
 				C49693B31577FC2700B8AD59 /* FlugstundenRechnerTests */,
 				C496938B1577FC2700B8AD59 /* Frameworks */,
@@ -401,6 +410,9 @@
 				C47ABF60157BC707000F0875 /* delete_control.jpg in Resources */,
 				C47ABF61157BC707000F0875 /* Sonderbutton.png in Resources */,
 				C47ABF90157BCC76000F0875 /* Localizable.strings in Resources */,
+				C4A9A725158262E500EA87C8 /* Icon.png in Resources */,
+				C4A9A726158262E500EA87C8 /* Icon@2x.png in Resources */,
+				C4A9A7281582630100EA87C8 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
