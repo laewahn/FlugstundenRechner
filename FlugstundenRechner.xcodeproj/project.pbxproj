@@ -48,7 +48,7 @@
 		C49693BB1577FC2700B8AD59 /* FlugstundenRechnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49693BA1577FC2700B8AD59 /* FlugstundenRechnerTests.m */; };
 		C4A9A725158262E500EA87C8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A9A723158262E500EA87C8 /* Icon.png */; };
 		C4A9A726158262E500EA87C8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A9A724158262E500EA87C8 /* Icon@2x.png */; };
-		C4A9A7281582630100EA87C8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A9A7271582630100EA87C8 /* Icon@2x.png */; };
+		C4BBF75A1631578700D099DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BBF7591631578700D099DE /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C42F8AB61629B884005A3880 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C47ABEFC157AA4A9000F0875 /* FlugstundenEntryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlugstundenEntryTests.h; sourceTree = "<group>"; };
 		C47ABEFD157AA4A9000F0875 /* FlugstundenEntryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlugstundenEntryTests.m; sourceTree = "<group>"; };
 		C47ABF10157B90F6000F0875 /* FlugstundenCollectionTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlugstundenCollectionTests.h; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 		C4A9A723158262E500EA87C8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
 		C4A9A724158262E500EA87C8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
 		C4A9A7271582630100EA87C8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		C4BBF7591631578700D099DE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +253,7 @@
 		C496937D1577FC2600B8AD59 = {
 			isa = PBXGroup;
 			children = (
+				C4BBF7591631578700D099DE /* Default-568h@2x.png */,
 				C4A9A7271582630100EA87C8 /* Icon@2x.png */,
 				C49693921577FC2700B8AD59 /* FlugstundenRechner */,
 				C49693B31577FC2700B8AD59 /* FlugstundenRechnerTests */,
@@ -271,6 +274,7 @@
 		C496938B1577FC2700B8AD59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C42F8AB61629B884005A3880 /* QuartzCore.framework */,
 				C496938C1577FC2700B8AD59 /* UIKit.framework */,
 				C496938E1577FC2700B8AD59 /* Foundation.framework */,
 				C49693901577FC2700B8AD59 /* CoreGraphics.framework */,
@@ -412,7 +416,7 @@
 				C47ABF90157BCC76000F0875 /* Localizable.strings in Resources */,
 				C4A9A725158262E500EA87C8 /* Icon.png in Resources */,
 				C4A9A726158262E500EA87C8 /* Icon@2x.png in Resources */,
-				C4A9A7281582630100EA87C8 /* Icon@2x.png in Resources */,
+				C4BBF75A1631578700D099DE /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,6 +579,7 @@
 				GCC_PREFIX_HEADER = "FlugstundenRechner/FlugstundenRechner-Prefix.pch";
 				INFOPLIST_FILE = "FlugstundenRechner/FlugstundenRechner-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -586,6 +591,7 @@
 				GCC_PREFIX_HEADER = "FlugstundenRechner/FlugstundenRechner-Prefix.pch";
 				INFOPLIST_FILE = "FlugstundenRechner/FlugstundenRechner-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
