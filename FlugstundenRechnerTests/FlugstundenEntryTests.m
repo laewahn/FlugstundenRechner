@@ -127,4 +127,55 @@
     STAssertNoThrow([testEntry popDigit], @"Popping the empty formatter caused an exception");
 }
 
+-(void)testEmptyEntryShouldBeInvalid
+{
+    FlugstundenEntry* testEntry = [[FlugstundenEntry alloc] init];
+    
+    STAssertFalse([testEntry isValid], @"Empty entry is not valid");
+}
+
+-(void)testInvalidEntryShouldBeInvalid
+{
+    FlugstundenEntry* testEntry = [[FlugstundenEntry alloc] init];
+    
+    [testEntry pushDigit:9];
+    [testEntry pushDigit:9];
+    
+    STAssertFalse([testEntry isValid], @"%@ is not valid", testEntry.timeString);
+    
+    testEntry = [[FlugstundenEntry alloc] init];
+    
+    [testEntry pushDigit:9];
+    [testEntry pushDigit:9];
+    [testEntry pushDigit:1];
+    
+    STAssertFalse([testEntry isValid], @"%@ is not valid", testEntry.timeString);
+    
+    testEntry = [[FlugstundenEntry alloc] init];
+    
+    [testEntry pushDigit:6];
+    [testEntry pushDigit:9];
+    
+    STAssertFalse([testEntry isValid], @"%@ is not valid", testEntry.timeString);
+}
+
+-(void)testValidEntryShouldBeValid
+{
+    FlugstundenEntry* testEntry = [[FlugstundenEntry alloc] init];
+    
+    [testEntry pushDigit:1];
+    
+    STAssertNoThrow([testEntry isValid], @"Should not crash");
+    STAssertTrue([testEntry isValid], @"%@ should be valid", testEntry.timeString);
+    
+    testEntry = [[FlugstundenEntry alloc] init];
+    
+    [testEntry pushDigit:1];
+    [testEntry pushDigit:2];
+    
+    STAssertNoThrow([testEntry isValid], @"Should not crash");
+    STAssertTrue([testEntry isValid], @"%@ should be valid", testEntry.timeString);
+}
+
+
 @end

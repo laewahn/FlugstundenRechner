@@ -18,6 +18,7 @@
 -(NSInteger)popDigit;
 
 -(void)clear;
+-(BOOL)isValid;
 
 @property(nonatomic, readonly) NSString* timeString;
 

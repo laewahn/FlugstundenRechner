@@ -84,6 +84,19 @@ const static int kTextFieldFormatterCapacity = 4;
     return [NSString stringWithString:outputString];
 }
 
+-(BOOL)isValid
+{
+    if ([digits count] == 0) {
+        return NO;
+    }
+    
+    if ([digits count] == 1) {
+        return YES;
+    }
+    
+    return !([[digits objectAtIndex:1] intValue] >= 6);
+}
+
 
 # pragma mark - Private methods
 
