@@ -25,7 +25,7 @@
         keyboard = [[FlugstundenKeyboardViewController alloc] initWithNibName:@"FlugstundenKeyboardViewController" bundle:nil];
         self.inputView = keyboard.view;
         keyboard.delegate = self;
-
+        
     }
     
     return self;
@@ -49,5 +49,9 @@
     [self.delegate textFieldShouldReturn:self];
 }
 
+- (BOOL)canPerformAction:(SEL)action withSender:(id)sender {
+    // I don't know what this beaks...
+    return NO;
+}
 
 @end
