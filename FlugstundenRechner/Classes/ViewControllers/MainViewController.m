@@ -13,6 +13,7 @@
 #import "FlugstundenKeyboardViewController.h"
 #import "FlugstundenCell.h"
 
+
 @interface MainViewController ()
 @end
 
@@ -25,10 +26,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    
     currentEntry = [[FlugstundenEntry alloc] init];
     entries = [[FlugstundenCollection alloc] init];
-
+    
+    
+    
     [timeInputTextField becomeFirstResponder];
 }
 
@@ -38,7 +41,7 @@
     [self setOverallTimeLabel:nil];
     [self setEntriesTable:nil];
     [super viewDidUnload];
-
+    
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -72,8 +75,22 @@
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField
 {
+    if (![currentEntry isValid]) {
+        [UIView animateWithDuration:1.0 animations:^(void){
+            UIColor* prevColor = self.view.backgroundColor;
+            //            [timeInputTextField.layer setBackgroundColor:[UIColor redColor].CGColor];
+            [self.view setBackgroundColor:[UIColor redColor]];
+            [self.view setBackgroundColor:prevColor];
+        }];
+        
+        return NO;
+    }
+    
     [entries addEntry:currentEntry];
     currentEntry = [[FlugstundenEntry alloc] init];
+    
+    NSIndexPath* lastRowIndex = [NSIndexPath indexPathForRow:([entries flugstundenCount] - 1) inSection:0];
+    [entriesTable insertRowsAtIndexPaths:[NSArray arrayWithObject:lastRowIndex] withRowAnimation:UITableViewRowAnimationTop];
     
     [self updateInputTextField];
     [self updateTableAndResult];
@@ -127,10 +144,16 @@
 
 -(void)deleteButtonPressedForFlugstundenCell:(FlugstundenCell *)theCell
 {
-    NSInteger positionOfCell = [[entriesTable indexPathForCell:theCell] row];
+    NSIndexPath *rowsToDelete = [entriesTable indexPathForCell:theCell];
+    
+    NSInteger positionOfCell = [rowsToDelete row];
+
     [entries removeEntryAtPosition:positionOfCell];
     
-    [self updateTableAndResult];
+//    [self.entriesTable reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationFade];
+    
+    [self updateResult];
+    
 }
 
 
@@ -141,10 +164,26 @@
     timeInputTextField.text = currentEntry.timeString;
 }
 
+-(void)updateTextInRowsStartingAtIndex:(NSInteger)startIndex
+{
+    
+}
+
 -(void)updateTableAndResult
 {
-    overallTimeLabel.text = [NSString stringWithFormat:@"%@: %@", NSLocalizedString(@"OVERALL", nil), entries.overallFlugstundenString]; 
-    [entriesTable reloadData];
+    [self updateTable];
+    [self updateResult];
+}
+     
+-(void)updateResult
+{
+    overallTimeLabel.text = [NSString stringWithFormat:@"%@: %@", NSLocalizedString(@"OVERALL", nil), entries.overallFlugstundenString];
+}
+
+-(void)updateTable
+{
+    NSIndexPath* lastEntry = [NSIndexPath indexPathForRow:([entries flugstundenCount] - 1) inSection:0];
+    [entriesTable scrollToRowAtIndexPath:lastEntry atScrollPosition:UITableViewScrollPositionBottom animated:YES];
 }
 
 -(void)clearCurrentEntry
@@ -156,7 +195,7 @@
 -(void)clearList
 {
     entries = [[FlugstundenCollection alloc] init];
-
+    
     [self clearCurrentEntry];
     [self updateTableAndResult];
 }
