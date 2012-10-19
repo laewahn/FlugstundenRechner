@@ -8,25 +8,18 @@
 
 #import "FlugstundenCell.h"
 
+static UIImage* sharedDeleteImage;
+
 @implementation FlugstundenCell
-@synthesize delegate;
 
-- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
-{
-    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self) {
-        
-        UIButton* deleteButton = [self createDeleteButton];
-
-        self.accessoryView = deleteButton;
-    }
-    return self;
-}
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
+    if (selected) {
+        return;
+    }
+    
     [super setSelected:selected animated:animated];
-
     // Configure the view for the selected state
 }
 
@@ -41,9 +34,14 @@
 
 # pragma mark - Private methods
 
--(UIButton *)createDeleteButton
+-(UIButton *)deleteButton
 {
-    UIImage* deleteImage = [UIImage imageNamed:@"delete_control.jpg"];
+    if (sharedDeleteImage == nil) {
+        sharedDeleteImage = [UIImage imageNamed:@"delete_control.jpg"];
+    }
+    
+    UIImage* deleteImage = sharedDeleteImage;
+    
     UIButton* deleteButton = [UIButton buttonWithType:UIButtonTypeCustom];
     deleteButton.frame = CGRectMake(80, 5, 34, 33);
     
@@ -53,7 +51,9 @@
     [deleteButton setBackgroundImage:deleteImage forState:UIControlStateHighlighted];
     [deleteButton setBackgroundImage:deleteImage forState:(UIControlStateHighlighted | UIControlStateSelected)];
     
-    [deleteButton addTarget:self action:@selector(deleteButtonPressed:) forControlEvents:UIControlEventTouchUpInside];    
+    [deleteButton addTarget:self action:@selector(deleteButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+
     return deleteButton;
 }
+
 @end

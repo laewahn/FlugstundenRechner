@@ -116,6 +116,8 @@
     
     FlugstundenEntry* cellEntry = [entries entryAtIndex:[indexPath row]];
     cell.textLabel.text = [NSString stringWithFormat:@"%d. %@", [indexPath row] + 1, cellEntry.timeString];
+    cell.accessoryView = [cell deleteButton];
+    cell.delegate = self;
     
     return cell;
 }

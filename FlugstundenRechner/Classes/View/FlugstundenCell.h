@@ -13,4 +13,6 @@
 
 @property(nonatomic, weak) id<FlugstundenCellDelegate> delegate;
 
+-(UIButton *)deleteButton;
+
 @end
