@@ -19,5 +19,6 @@
 @property (weak, nonatomic) id <FlipsideViewControllerDelegate> delegate;
 
 - (IBAction)done:(id)sender;
+- (IBAction)fthaLinkClicked:(id)sender;
 
 @end

@@ -20,6 +20,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)viewDidUnload
@@ -39,5 +40,12 @@
 {
     [self.delegate flipsideViewControllerDidFinish:self];
 }
+
+- (IBAction)fthaLinkClicked:(id)sender
+{
+    NSLog(@"Link was tapped!");
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.ftha.de"]];
+}
+
 
 @end
