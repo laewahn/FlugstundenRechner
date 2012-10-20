@@ -13,6 +13,7 @@
 #import "FlugstundenKeyboardViewController.h"
 #import "FlugstundenCell.h"
 
+#import <QuartzCore/QuartzCore.h>
 
 @interface MainViewController ()
 @end
@@ -31,6 +32,8 @@
     entries = [[FlugstundenCollection alloc] init];
     
     [self.clearAllButton setBackgroundImage:[UIImage imageNamed:@"ca.png"] forState:UIControlStateNormal];
+    [self.overallTimeLabel.layer setBorderColor:[[UIColor blackColor] CGColor]];
+    [self.overallTimeLabel.layer setBorderWidth:1];
     
     [timeInputTextField becomeFirstResponder];
 }

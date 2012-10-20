@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C43158D41632D4EC002B0DAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42F8AB61629B884005A3880 /* QuartzCore.framework */; };
 		C47ABEFE157AA4A9000F0875 /* FlugstundenEntryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABEFD157AA4A9000F0875 /* FlugstundenEntryTests.m */; };
 		C47ABF12157B90F6000F0875 /* FlugstundenCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABF11157B90F6000F0875 /* FlugstundenCollectionTests.m */; };
 		C47ABF18157B954B000F0875 /* FlugstundenConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABF17157B954B000F0875 /* FlugstundenConverterTests.m */; };
@@ -168,6 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43158D41632D4EC002B0DAA /* QuartzCore.framework in Frameworks */,
 				C496938D1577FC2700B8AD59 /* UIKit.framework in Frameworks */,
 				C496938F1577FC2700B8AD59 /* Foundation.framework in Frameworks */,
 				C49693911577FC2700B8AD59 /* CoreGraphics.framework in Frameworks */,
