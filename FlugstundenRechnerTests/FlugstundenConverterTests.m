@@ -28,7 +28,7 @@ const static NSTimeInterval oneTwentyTwoInSeconds = 4920;
 {
     FlugstundenEntry* convertedEntry = [FlugstundenConverter flugstundenEntryFromTimeInterval:oneTwentyTwoInSeconds];
     
-    NSString* expectedString = @"01:22";
+    NSString* expectedString = @"1:22";
     STAssertEqualObjects(convertedEntry.timeString, expectedString, @"Wrong result");
 }
 

@@ -56,7 +56,7 @@
     [testCollection addEntry:newEntry];
     
     NSString* overallTime = testCollection.overallFlugstundenString;
-    NSString* expectedString = @"02:13";
+    NSString* expectedString = @"2:13";
     STAssertEqualObjects(overallTime, expectedString, @"Wrong result");
     
     
@@ -75,7 +75,7 @@
     [testCollection addEntry:newEntry];
     
     overallTime = testCollection.overallFlugstundenString;
-    expectedString = @"02:07";
+    expectedString = @"2:07";
     STAssertEqualObjects(overallTime, expectedString, @"Wrong result");
 }
 

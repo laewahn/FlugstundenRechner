@@ -14,7 +14,7 @@
 -(void) testInitialization
 {
     FlugstundenEntry* testEntry = [[FlugstundenEntry alloc] init];
-    NSString* expectedString = @"00:00";
+    NSString* expectedString = @"0:00";
     
     STAssertEqualObjects(testEntry.timeString, expectedString,@"Wrong string returned.");
 }
@@ -24,15 +24,15 @@
     FlugstundenEntry* testEntry = [[FlugstundenEntry alloc] init];
 
     [testEntry pushDigit:1];
-    NSString* expectedString = @"00:01";
+    NSString* expectedString = @"0:01";
     STAssertEqualObjects(testEntry.timeString, expectedString, @"Wrong string returned.");
     
     [testEntry pushDigit:2];
-    expectedString = @"00:12";
+    expectedString = @"0:12";
     STAssertEqualObjects(testEntry.timeString, expectedString, @"Wrong string returned.");
     
     [testEntry pushDigit:3];
-    expectedString = @"01:23";
+    expectedString = @"1:23";
     STAssertEqualObjects(testEntry.timeString, expectedString, @"Wrong string returned.");
     
     [testEntry pushDigit:4];
@@ -54,31 +54,31 @@
     STAssertEqualObjects(testEntry.timeString, expectedString, @"Wrong string returned.");
     
     NSInteger lastNumber = [testEntry popDigit];
-    expectedString = @"01:23";
+    expectedString = @"1:23";
     STAssertEqualObjects(testEntry.timeString, expectedString, @"Wrong string returned.");
     STAssertEquals(lastNumber, 4, @"Wrong value returned.");
 
     lastNumber = [testEntry popDigit];
-    expectedString = @"00:12";
+    expectedString = @"0:12";
     STAssertEqualObjects(testEntry.timeString, expectedString, @"Wrong string returned.");
     STAssertEquals(lastNumber, 3, @"Wrong value returned.");
     
     [testEntry pushDigit:4];
-    expectedString = @"01:24";
+    expectedString = @"1:24";
     STAssertEqualObjects(testEntry.timeString, expectedString, @"Wrong string returned.");
 
     lastNumber = [testEntry popDigit];
-    expectedString = @"00:12";
+    expectedString = @"0:12";
     STAssertEqualObjects(testEntry.timeString, expectedString, @"Wrong string returned.");
     STAssertEquals(lastNumber, 4, @"Wrong value returned.");
 
     lastNumber = [testEntry popDigit];
-    expectedString = @"00:01";
+    expectedString = @"0:01";
     STAssertEqualObjects(testEntry.timeString, expectedString, @"Wrong string returned.");
     STAssertEquals(lastNumber, 2, @"Wrong value returned.");
 
     lastNumber = [testEntry popDigit];
-    expectedString = @"00:00";
+    expectedString = @"0:00";
     STAssertEqualObjects(testEntry.timeString, expectedString, @"Wrong string returned.");
     STAssertEquals(lastNumber, 1, @"Wrong value returned.");
 
@@ -98,7 +98,7 @@
 
     STAssertNoThrow([testFormatter clear], @"Clearing caused an exception");
     
-    expectedString = @"00:00";
+    expectedString = @"0:00";
     STAssertEqualObjects(expectedString, testFormatter.timeString, @"Wrong string returned.");
 }
 
@@ -112,17 +112,23 @@
     [testEntry pushDigit:4];
     
     STAssertNoThrow([testEntry pushDigit:5], @"Puhsing caused an exception");
-    NSString* expectedString = @"12:34";
+    NSString* expectedString = @"123:45";
     STAssertEqualObjects(testEntry.timeString, expectedString, @"Wrong string returned.");
-    
+
+    STAssertNoThrow([testEntry pushDigit:6], @"Puhsing caused an exception");
+    expectedString = @"1234:56";
+    STAssertEqualObjects(testEntry.timeString, expectedString, @"Wrong string returned.");
+
     NSInteger lastDigit = [testEntry popDigit];
-    STAssertEquals(lastDigit, 4, @"Wrong value returned");
+    STAssertEquals(lastDigit, 6, @"Wrong value returned");
     
+    [testEntry popDigit];
+    [testEntry popDigit];
     [testEntry popDigit];
     [testEntry popDigit];
     [testEntry popDigit];
 
-    expectedString = @"00:00";
+    expectedString = @"0:00";
     STAssertEqualObjects(testEntry.timeString, expectedString, @"Wrong string returned.");
     STAssertNoThrow([testEntry popDigit], @"Popping the empty formatter caused an exception");
 }
