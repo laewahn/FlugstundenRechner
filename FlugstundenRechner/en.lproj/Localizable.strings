@@ -6,4 +6,5 @@
   Copyright (c) 2012 RWTH Aachen. All rights reserved.
 */
 
-"OVERALL" = "Overall";
+"OVERALL" = "Total";
+"OVERALL_SHORT" = "Tot";

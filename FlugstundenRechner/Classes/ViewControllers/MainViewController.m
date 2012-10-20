@@ -67,10 +67,14 @@
 
 -(BOOL)textField:(UITextField *)theTextField shouldChangeCharactersInRange:(NSRange)theRange replacementString:(NSString *)theReplacement
 {
-    
     if ([theReplacement isEqualToString:@""]) {
         [currentEntry popDigit];
     } else {
+        
+        if ([currentEntry.timeString length] > 7) {
+            return NO;
+        }
+        
         NSInteger newDigit = [theReplacement intValue];
         [currentEntry pushDigit:newDigit];
     }
@@ -191,7 +195,16 @@
      
 -(void)updateResult
 {
-    overallTimeLabel.text = [NSString stringWithFormat:@"%@: %@", NSLocalizedString(@"OVERALL", nil), entries.overallFlugstundenString];
+    NSString* overallAbreviation;
+    
+    if ([entries.overallFlugstundenString length] <= 7) {
+        overallAbreviation = NSLocalizedString(@"OVERALL", nil);
+    }
+    else {
+        overallAbreviation = NSLocalizedString(@"OVERALL_SHORT", nil);
+    }
+    
+    overallTimeLabel.text = [NSString stringWithFormat:@"%@: %@", overallAbreviation, entries.overallFlugstundenString];
 }
 
 -(void)updateTable
