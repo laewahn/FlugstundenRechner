@@ -151,7 +151,7 @@
 
     [entries removeEntryAtPosition:positionOfCell];
     
-//    [self.entriesTable reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationFade];
+    [self.entriesTable deleteRowsAtIndexPaths:[NSArray arrayWithObject:rowsToDelete] withRowAnimation:UITableViewRowAnimationAutomatic];
     
     [self updateResult];
     
