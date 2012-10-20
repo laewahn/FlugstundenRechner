@@ -9,7 +9,7 @@
 #import "FlugstundenEntry.h"
 
 
-const static int kTextFieldFormatterCapacity = 4;
+const static int kTextFieldFormatterCapacity = 9;
 
 
 @interface FlugstundenEntry()
@@ -38,9 +38,9 @@ const static int kTextFieldFormatterCapacity = 4;
 
 -(void)pushDigit:(NSInteger)aDigit
 {
-    if ([digits count] < kTextFieldFormatterCapacity) {
+//    if ([digits count] < kTextFieldFormatterCapacity) {
         [digits insertObject:[NSNumber numberWithInt:aDigit] atIndex:0];
-    }
+//    }
 }
 
 -(NSInteger)popDigit
@@ -63,22 +63,29 @@ const static int kTextFieldFormatterCapacity = 4;
 {
     NSMutableString* outputString = [[NSMutableString alloc] init];
     
-    for (int position = 3 ; position >= 0 ; position--) {
+    int startPosition = ([digits count] > 3) ? ([digits count] - 1) : 3;
+    
+    for (int position = startPosition ; position >= 0 ; position--) {
 
         if (position == 1) {
             [outputString appendString:@":"];
         }
         
         NSNumber* currentNumber;
-        if (position >= [digits count]) {
-            currentNumber = [NSNumber numberWithInt:0];
-        } else {
+
+        if (!(position >= [digits count])) {
             currentNumber = (NSNumber *)[digits objectAtIndex:position];
+            
+        }
+        else if (position < 3) {
+            currentNumber = [NSNumber numberWithInt:0];
         }
         
-        NSString* formatString = [NSString stringWithFormat:@"%d", [currentNumber intValue]];
-        [outputString appendString:formatString];
-         
+        if (currentNumber != nil) {
+            NSString* formatString = [NSString stringWithFormat:@"%d", [currentNumber intValue]];
+            [outputString appendString:formatString];
+        }
+        
     }
          
     return [NSString stringWithString:outputString];
