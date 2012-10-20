@@ -30,7 +30,7 @@
     currentEntry = [[FlugstundenEntry alloc] init];
     entries = [[FlugstundenCollection alloc] init];
     
-    
+    [self.clearAllButton setBackgroundImage:[UIImage imageNamed:@"ca.png"] forState:UIControlStateNormal];
     
     [timeInputTextField becomeFirstResponder];
 }
@@ -40,6 +40,7 @@
     [self setTimeInputTextField:nil];
     [self setOverallTimeLabel:nil];
     [self setEntriesTable:nil];
+    [self setClearAllButton:nil];
     [super viewDidUnload];
     
 }

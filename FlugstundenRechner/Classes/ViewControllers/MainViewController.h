@@ -23,5 +23,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *timeInputTextField;
 @property (weak, nonatomic) IBOutlet UILabel *overallTimeLabel;
 @property (weak, nonatomic) IBOutlet UITableView *entriesTable;
+@property (weak, nonatomic) IBOutlet UIButton *clearAllButton;
+
 
 @end
