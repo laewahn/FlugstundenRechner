@@ -52,6 +52,16 @@
 
 # pragma mark - UI methods
 
+-(IBAction)clearAllButtonClicked:(id)sender
+{
+    entries = [[FlugstundenCollection alloc] init];
+    
+    NSIndexSet* firstSection = [NSIndexSet indexSetWithIndex:0];
+    [self.entriesTable reloadSections:firstSection withRowAnimation:UITableViewRowAnimationFade];
+    
+    [self updateResult];
+}
+
 -(BOOL)textField:(UITextField *)theTextField shouldChangeCharactersInRange:(NSRange)theRange replacementString:(NSString *)theReplacement
 {
     
