@@ -159,7 +159,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Logo 1.3.2.jpg" id="qga-88-MkZ">
-                                <rect key="frame" x="17" y="88" width="285" height="285"/>
+                                <rect key="frame" x="17" y="80" width="285" height="285"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Mehr Informationen unter:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n7Y-Ik-Bhn">
@@ -219,32 +219,6 @@
         <image name="ca.png" width="64" height="30"/>
         <image name="error_halo.png" width="114" height="36"/>
     </resources>
-    <classes>
-        <class className="FlipsideViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FlipsideViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="done:"/>
-                <relationship kind="action" name="fthaLinkClicked:"/>
-            </relationships>
-        </class>
-        <class className="FlugstundenCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FlugstundenCell.h"/>
-        </class>
-        <class className="MainViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="clearAllButtonClicked:"/>
-                <relationship kind="outlet" name="clearAllButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="entriesTable" candidateClass="UITableView"/>
-                <relationship kind="outlet" name="errorHalo" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="overallTimeLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="timeInputTextField" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="TimeTextField" superclassName="UITextField">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TimeTextField.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
