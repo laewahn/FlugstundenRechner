@@ -10,6 +10,8 @@
 		C43158D41632D4EC002B0DAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42F8AB61629B884005A3880 /* QuartzCore.framework */; };
 		C447EE4416342CEB00A3CB37 /* ca.png in Resources */ = {isa = PBXBuildFile; fileRef = C447EE4616342CEB00A3CB37 /* ca.png */; };
 		C447EE4816342CEF00A3CB37 /* ca@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C447EE4A16342CEF00A3CB37 /* ca@2x.png */; };
+		C447EE53163432FC00A3CB37 /* error_halo.png in Resources */ = {isa = PBXBuildFile; fileRef = C447EE51163432FC00A3CB37 /* error_halo.png */; };
+		C447EE54163432FC00A3CB37 /* error_halo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C447EE52163432FC00A3CB37 /* error_halo@2x.png */; };
 		C47ABEFE157AA4A9000F0875 /* FlugstundenEntryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABEFD157AA4A9000F0875 /* FlugstundenEntryTests.m */; };
 		C47ABF12157B90F6000F0875 /* FlugstundenCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABF11157B90F6000F0875 /* FlugstundenCollectionTests.m */; };
 		C47ABF18157B954B000F0875 /* FlugstundenConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C47ABF17157B954B000F0875 /* FlugstundenConverterTests.m */; };
@@ -85,6 +87,8 @@
 		C447EE4916342CEF00A3CB37 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/ca@2x.png"; sourceTree = "<group>"; };
 		C447EE4B16342CF500A3CB37 /* de */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = de; path = de.lproj/ca.png; sourceTree = "<group>"; };
 		C447EE4C16342CF900A3CB37 /* de */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = de; path = "de.lproj/ca@2x.png"; sourceTree = "<group>"; };
+		C447EE51163432FC00A3CB37 /* error_halo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_halo.png; sourceTree = "<group>"; };
+		C447EE52163432FC00A3CB37 /* error_halo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error_halo@2x.png"; sourceTree = "<group>"; };
 		C47ABEFC157AA4A9000F0875 /* FlugstundenEntryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlugstundenEntryTests.h; sourceTree = "<group>"; };
 		C47ABEFD157AA4A9000F0875 /* FlugstundenEntryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlugstundenEntryTests.m; sourceTree = "<group>"; };
 		C47ABF10157B90F6000F0875 /* FlugstundenCollectionTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlugstundenCollectionTests.h; sourceTree = "<group>"; };
@@ -223,6 +227,8 @@
 				C4C9D69C1631FEDF008F8BA0 /* Logo 1.3.2.jpg */,
 				C4BBF7591631578700D099DE /* Default-568h@2x.png */,
 				C4A9A7271582630100EA87C8 /* Icon@2x.png */,
+				C447EE51163432FC00A3CB37 /* error_halo.png */,
+				C447EE52163432FC00A3CB37 /* error_halo@2x.png */,
 				C47ABF19157B98A1000F0875 /* Buttons */,
 				C496939E1577FC2700B8AD59 /* MainStoryboard.storyboard */,
 				C47ABF46157BC6EB000F0875 /* FlugstundenKeyboardViewController.xib */,
@@ -489,6 +495,8 @@
 				C4BBF77A16316B9F00D099DE /* 13@2x.png in Resources */,
 				C4BBF77B16316B9F00D099DE /* Sonderbutton@2x.png in Resources */,
 				C4C9D69D1631FEDF008F8BA0 /* Logo 1.3.2.jpg in Resources */,
+				C447EE53163432FC00A3CB37 /* error_halo.png in Resources */,
+				C447EE54163432FC00A3CB37 /* error_halo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

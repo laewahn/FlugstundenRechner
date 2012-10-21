@@ -94,10 +94,8 @@
 {
     if (![currentEntry isValid]) {
         [UIView animateWithDuration:1.0 animations:^(void){
-            UIColor* prevColor = self.view.backgroundColor;
-            //            [timeInputTextField.layer setBackgroundColor:[UIColor redColor].CGColor];
-            [self.view setBackgroundColor:[UIColor redColor]];
-            [self.view setBackgroundColor:prevColor];
+            self.errorHalo.alpha = 1.0;
+            self.errorHalo.alpha = 0.0;
         }];
         
         return NO;

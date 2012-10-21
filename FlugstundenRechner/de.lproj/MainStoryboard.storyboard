@@ -17,6 +17,10 @@
                                 <rect key="frame" x="0.0" y="210" width="320" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" image="error_halo.png" id="DmG-cY-1gj">
+                                        <rect key="frame" x="74" y="2" width="114" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="line" minimumFontSize="17" clearButtonMode="always" id="AOI-B8-0Bc" customClass="TimeTextField">
                                         <rect key="frame" x="77" y="5" width="108" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
@@ -130,6 +134,7 @@
                     <connections>
                         <outlet property="clearAllButton" destination="4gy-9g-W3D" id="oI1-q2-omz"/>
                         <outlet property="entriesTable" destination="EXA-vp-VM2" id="3wi-ly-qEV"/>
+                        <outlet property="errorHalo" destination="DmG-cY-1gj" id="0aS-Z8-f3P"/>
                         <outlet property="overallTimeLabel" destination="5Is-Xj-cIf" id="KHL-tY-0WU"/>
                         <outlet property="timeInputTextField" destination="AOI-B8-0Bc" id="BVJ-mM-zIn"/>
                     </connections>
@@ -212,6 +217,7 @@
     <resources>
         <image name="Logo 1.3.2.jpg" width="800" height="800"/>
         <image name="ca.png" width="64" height="30"/>
+        <image name="error_halo.png" width="114" height="36"/>
     </resources>
     <classes>
         <class className="FlipsideViewController" superclassName="UIViewController">
