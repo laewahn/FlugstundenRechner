@@ -33,13 +33,26 @@
          shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "FlugstundenRechnerTests/FlugstundenCollectionTests.m"
-         timestampString = "360428467.218406"
+         filePath = "FlugstundenRechnerTests/FlugstundenEntryTests.m"
+         timestampString = "372430807.242224"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "77"
-         endingLineNumber = "77"
-         landmarkName = "-testOverallFlugstundenCalculation"
+         startingLineNumber = "109"
+         endingLineNumber = "109"
+         landmarkName = "-testEdgeCases"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FlugstundenRechner/Classes/ViewControllers/MainViewController.m"
+         timestampString = "372519151.89253"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "76"
+         endingLineNumber = "76"
+         landmarkName = "-textField:shouldChangeCharactersInRange:replacementString:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
