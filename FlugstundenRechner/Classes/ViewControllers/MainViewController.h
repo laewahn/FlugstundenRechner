@@ -26,6 +26,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *overallTimeLabel;
 @property (weak, nonatomic) IBOutlet UITableView *entriesTable;
 @property (weak, nonatomic) IBOutlet UIButton *clearAllButton;
+@property (weak, nonatomic) IBOutlet UIImageView *errorHalo;
 
 
 @end

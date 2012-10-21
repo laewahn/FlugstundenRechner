@@ -31,7 +31,6 @@
     currentEntry = [[FlugstundenEntry alloc] init];
     entries = [[FlugstundenCollection alloc] init];
     
-    [self.clearAllButton setBackgroundImage:[UIImage imageNamed:@"ca.png"] forState:UIControlStateNormal];
     [self.overallTimeLabel.layer setBorderColor:[[UIColor blackColor] CGColor]];
     [self.overallTimeLabel.layer setBorderWidth:1];
     
@@ -170,6 +169,7 @@
     
     [self.entriesTable deleteRowsAtIndexPaths:[NSArray arrayWithObject:rowsToDelete] withRowAnimation:UITableViewRowAnimationAutomatic];
     
+    [self updateTextInRowsStartingAtIndex:positionOfCell];
     [self updateResult];
     
 }
@@ -184,7 +184,13 @@
 
 -(void)updateTextInRowsStartingAtIndex:(NSInteger)startIndex
 {
-    
+    for (int cellIndex = startIndex; cellIndex < [entries flugstundenCount]; cellIndex++) {
+        NSIndexPath* currentCellIndexPath = [NSIndexPath indexPathForRow:cellIndex inSection:0];
+        UITableViewCell* currentCell = [self.entriesTable cellForRowAtIndexPath:currentCellIndexPath];
+        
+        FlugstundenEntry* cellsEntry = [entries entryAtIndex:cellIndex];
+        currentCell.textLabel.text = [NSString stringWithFormat:@"%d. %@", cellIndex + 1, cellsEntry.timeString];
+    }
 }
 
 -(void)updateTableAndResult

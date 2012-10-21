@@ -21,6 +21,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    self.navigationItem.backBarButtonItem.title = NSLocalizedString(@"DONE", nil);
+    
 }
 
 - (void)viewDidUnload
@@ -43,7 +45,6 @@
 
 - (IBAction)fthaLinkClicked:(id)sender
 {
-    NSLog(@"Link was tapped!");
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.ftha.de"]];
 }
 
