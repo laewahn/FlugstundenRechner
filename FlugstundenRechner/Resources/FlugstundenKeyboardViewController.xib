@@ -327,6 +327,7 @@
 						<string key="NSFrame">{{215, 164}, {105, 52}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="737687484"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -718,7 +719,7 @@
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="01.png">{105, 53}</string>
 			<string key="10.png">{108, 52}</string>
-			<string key="12.png">{105, 53}</string>
+			<string key="12.png">{105, 52}</string>
 			<string key="2.png">{108, 53}</string>
 			<string key="3.png">{105, 53}</string>
 			<string key="4.png">{105, 53}</string>
@@ -727,7 +728,7 @@
 			<string key="7.png">{105, 53}</string>
 			<string key="8.png">{108, 53}</string>
 			<string key="9.png">{105, 53}</string>
-			<string key="Sonderbutton.png">{105, 53}</string>
+			<string key="Sonderbutton.png">{105, 52}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">1929</string>
 	</data>
