@@ -37,7 +37,7 @@ static UIImage* sharedDeleteImage;
 -(UIButton *)deleteButton
 {
     if (sharedDeleteImage == nil) {
-        sharedDeleteImage = [UIImage imageNamed:@"delete_control.jpg"];
+        sharedDeleteImage = [UIImage imageNamed:@"delete.png"];
     }
     
     UIImage* deleteImage = sharedDeleteImage;
